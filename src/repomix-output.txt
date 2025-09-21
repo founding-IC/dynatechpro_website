@@ -1,0 +1,1235 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+The content has been processed where content has been compressed (code blocks are separated by ⋮---- delimiter).
+
+================================================================
+File Summary
+================================================================
+
+Purpose:
+--------
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+
+File Format:
+------------
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+4. Multiple file entries, each consisting of:
+  a. A separator line (================)
+  b. The file path (File: path/to/file)
+  c. Another separator line
+  d. The full contents of the file
+  e. A blank line
+
+Usage Guidelines:
+-----------------
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+
+Notes:
+------
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Content has been compressed - code blocks are separated by ⋮---- delimiter
+- Files are sorted by Git change count (files with more changes are at the bottom)
+
+Additional Info:
+----------------
+
+================================================================
+Directory Structure
+================================================================
+components/
+  layout/
+    Footer.tsx
+    PixelHeader.tsx
+    PixelLayout.tsx
+  sections/
+    AboutStats.tsx
+    DetailedServices.tsx
+    ExpertiseShowcase.tsx
+    FinalCTA.tsx
+    IndustriesSection.tsx
+    PixelHero.tsx
+    PixelServiceCards.tsx
+    ProcessSection.tsx
+    PurpleCTA.tsx
+    TrustIndicators.tsx
+    TwoColumnScroll.tsx
+  TestComponent.tsx
+pages/
+  About.tsx
+  Contact.tsx
+  PixelHome.tsx
+  Services.tsx
+App.css
+App.test.tsx
+App.tsx
+index.css
+index.tsx
+logo.svg
+react-app-env.d.ts
+reportWebVitals.ts
+setupTests.ts
+
+================================================================
+Files
+================================================================
+
+================
+File: components/layout/Footer.tsx
+================
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Facebook, Twitter, Linkedin, Youtube, Instagram, Mail, MapPin } from 'lucide-react';
+⋮----
+{/* Main Footer Content */}
+⋮----
+{/* Company Info */}
+⋮----
+{/* Contact Info */}
+⋮----
+{/* Social Media */}
+⋮----
+<a href="https://twitter.com" className="text-gray-400 hover:text-purple-400 transition-colors">
+⋮----
+<a href="https://youtube.com" className="text-gray-400 hover:text-purple-400 transition-colors">
+⋮----
+{/* Services */}
+⋮----
+{/* Newsletter Signup */}
+⋮----
+{/* Bottom Footer */}
+
+================
+File: components/layout/PixelHeader.tsx
+================
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react';
+⋮----
+const toggleMenu = ()
+⋮----
+// Auto-hover functionality for desktop
+const handleMouseEnter = (dropdown: string) =>
+⋮----
+const handleMouseLeave = () =>
+⋮----
+{/* Logo */}
+⋮----
+{/* Desktop Navigation */}
+⋮----
+{/* Services Dropdown */}
+⋮----
+{/* Hire Dropdown */}
+⋮----
+onMouseLeave=
+⋮----
+{/* For Agencies */}
+⋮----
+{/* Industries Dropdown */}
+⋮----
+{/* Company Dropdown */}
+⋮----
+{/* Contact Button & Mobile Menu */}
+⋮----
+{/* Mobile menu button */}
+⋮----
+{/* Mobile Menu */}
+⋮----
+{/* Mobile Services */}
+⋮----
+{/* Mobile Hire */}
+⋮----
+{/* Mobile Industries */}
+⋮----
+{/* Mobile Company */}
+⋮----
+{/* Mobile Contact */}
+⋮----
+{/* Overlay to close dropdowns */}
+
+================
+File: components/layout/PixelLayout.tsx
+================
+import React from 'react';
+import PixelHeader from './PixelHeader';
+import Footer from './Footer';
+⋮----
+interface LayoutProps {
+  children: React.ReactNode;
+}
+⋮----
+const PixelLayout: React.FC<LayoutProps> = (
+
+================
+File: components/sections/AboutStats.tsx
+================
+import React from 'react';
+import { Users, Award, Clock, Globe, TrendingUp, CheckCircle } from 'lucide-react';
+⋮----
+{/* About Section */}
+⋮----
+{/* Left Column - Content */}
+⋮----
+{/* Right Column - Stats */}
+⋮----
+{/* Methodology Section */}
+⋮----
+{/* Step Number */}
+⋮----
+{/* Connection Line (hidden on last item) */}
+
+================
+File: components/sections/DetailedServices.tsx
+================
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { 
+  Code, 
+  Smartphone, 
+  Globe, 
+  Rocket, 
+  Shield, 
+  Settings, 
+  BarChart3, 
+  Search, 
+  Users, 
+  PenTool,
+  ArrowRight,
+  Cloud,
+  Database,
+  Zap,
+  Target,
+  MessageCircle,
+  Brain
+} from 'lucide-react';
+⋮----
+{/* Software Engineering Section */}
+⋮----
+{/* Background Pattern */}
+⋮----
+{/* Content */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Visual placeholder */}
+⋮----
+{/* Floating tech icons */}
+⋮----
+{/* Learn More Link */}
+⋮----
+{/* Digital Marketing Section */}
+⋮----
+{/* Background Pattern */}
+⋮----
+{/* Content */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Visual placeholder */}
+⋮----
+{/* Floating marketing icons */}
+⋮----
+{/* Learn More Link */}
+⋮----
+{/* Digital Transformation Section */}
+⋮----
+{/* Background Pattern */}
+⋮----
+{/* Content */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Visual placeholder */}
+⋮----
+{/* Floating tech icons */}
+⋮----
+{/* Learn More Link */}
+⋮----
+{/* eCommerce Section */}
+⋮----
+{/* Background Pattern */}
+⋮----
+{/* Content */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Visual placeholder */}
+⋮----
+{/* Learn More Link */}
+⋮----
+{/* Hire Dedicated Teams Section */}
+⋮----
+{/* Background Pattern */}
+⋮----
+{/* Content */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Visual placeholder */}
+⋮----
+{/* Team member avatars */}
+⋮----
+{/* Learn More Link */}
+
+================
+File: components/sections/ExpertiseShowcase.tsx
+================
+import React from 'react';
+import { 
+  Code, 
+  Database, 
+  Cloud, 
+  Smartphone, 
+  Shield, 
+  Brain,
+  TrendingUp,
+  Users,
+  Target,
+  BarChart3,
+  Lightbulb,
+  Globe,
+  Settings,
+  Search,
+  MessageCircle,
+  Award,
+  ShoppingCart,
+  ArrowRight
+} from 'lucide-react';
+⋮----
+{/* Background Patterns */}
+⋮----
+{/* Section Header */}
+⋮----
+{/* Skills Grid */}
+⋮----
+{/* Left Column - Technical Skills */}
+⋮----
+{/* Progress Bar */}
+⋮----
+{/* Right Column - Business Skills */}
+⋮----
+{/* Progress Bar */}
+⋮----
+{/* Bottom Achievement Section */}
+⋮----
+{/* Certifications & Awards */}
+⋮----
+{/* Microsoft */}
+⋮----
+{/* AWS */}
+⋮----
+{/* Google Cloud */}
+⋮----
+{/* Achievement Stats */}
+⋮----
+{/* Call to Action */}
+⋮----
+{/* Floating Elements */}
+
+================
+File: components/sections/FinalCTA.tsx
+================
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, Users, CheckCircle, Star, Award } from 'lucide-react';
+⋮----
+{/* Background Patterns */}
+⋮----
+{/* Left Side Content */}
+⋮----
+{/* CTA Button */}
+⋮----
+{/* Statistics Bar */}
+⋮----
+{/* Right Side Visual */}
+⋮----
+{/* Main Professional Photos */}
+⋮----
+{/* First person photo */}
+⋮----
+{/* Second person photo (larger) */}
+
+================
+File: components/sections/IndustriesSection.tsx
+================
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { 
+  Building, 
+  GraduationCap, 
+  ShoppingCart, 
+  Heart, 
+  Truck, 
+  Laptop,
+  ArrowRight,
+  Sparkles,
+  Zap,
+  Target,
+  Users,
+  TrendingUp,
+  Award,
+  ChevronRight,
+  Play,
+  Star
+} from 'lucide-react';
+⋮----
+{/* Background Elements */}
+⋮----
+{/* Section Header */}
+⋮----
+{/* Folder Tabs Interface */}
+⋮----
+{/* Tab Headers */}
+⋮----
+{/* Active indicator */}
+⋮----
+{/* Tab Content */}
+⋮----
+{/* Left Side - Content */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Case Study */}
+⋮----
+{/* Visual Element */}
+⋮----
+{/* CTA */}
+⋮----
+{/* Bottom Stats */}
+
+================
+File: components/sections/PixelHero.tsx
+================
+import React from 'react';
+import { ArrowRight } from 'lucide-react';
+⋮----
+{/* Video Background */}
+⋮----
+{/* Dark overlay to ensure text readability */}
+⋮----
+{/* Main Content Container */}
+⋮----
+{/* Left Side Content with enhanced backdrop */}
+⋮----
+{/* Content backdrop for better contrast */}
+⋮----
+{/* Main Headline with enhanced text effects */}
+⋮----
+{/* Dynamic Tagline with backdrop */}
+⋮----
+{/* Description with enhanced readability */}
+⋮----
+{/* CTA Buttons with enhanced styling */}
+⋮----
+{/* Technologies Section with backdrop */}
+⋮----
+{/* Right Side - Empty for now */}
+⋮----
+{/* Empty space for future content */}
+
+================
+File: components/sections/PixelServiceCards.tsx
+================
+import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { 
+  Brain, 
+  Settings, 
+  BarChart3,
+  Zap,
+  ShoppingCart,
+  Users,
+  ArrowRight,
+  CheckCircle
+} from 'lucide-react';
+⋮----
+const handleScroll = (e: WheelEvent) =>
+⋮----
+// Check if section is in viewport
+⋮----
+// Prevent page scroll and scroll right content instead
+⋮----
+// Allow scrolling up if at top of right content
+⋮----
+// Right scroll complete, allow page scroll
+⋮----
+const handleRightScroll = () =>
+⋮----
+{/* Left Side - Completely Static */}
+⋮----
+{/* Section Header */}
+⋮----
+{/* Left Side CTA - Repeated */}
+⋮----
+{/* Right Side - Scrollable Container */}
+⋮----
+{/* Background Pattern for Purple Cards */}
+⋮----
+{/* Content */}
+⋮----
+{/* Icon */}
+⋮----
+{/* Title */}
+⋮----
+{/* Description */}
+⋮----
+{/* Features List */}
+⋮----
+{/* Learn More Link */}
+⋮----
+{/* Custom CSS for hiding scrollbar */}
+
+================
+File: components/sections/ProcessSection.tsx
+================
+import React from 'react';
+import { 
+  Search, 
+  Users, 
+  Calculator, 
+  Shield, 
+  RefreshCw, 
+  CheckCircle, 
+  BarChart3, 
+  MessageCircle,
+  Target,
+  Settings
+} from 'lucide-react';
+⋮----
+{/* Background Decorative Elements */}
+⋮----
+{/* Main Layout with Vertical Flow on Right */}
+⋮----
+{/* Left Content */}
+⋮----
+{/* Section Header - Compact */}
+⋮----
+{/* Process Grid - 2 cards per row, centered */}
+⋮----
+{/* First Row */}
+⋮----
+{/* Step Number */}
+⋮----
+{/* Card Content - Vertical Layout */}
+⋮----
+{/* Icon */}
+⋮----
+{/* Content */}
+⋮----
+{/* Fancy Glow Effect */}
+⋮----
+{/* Second Row */}
+⋮----
+{/* Step Number */}
+⋮----
+{/* Card Content - Vertical Layout */}
+⋮----
+{/* Icon */}
+⋮----
+{/* Content */}
+⋮----
+{/* Fancy Glow Effect */}
+⋮----
+{/* Decorative Elements */}
+⋮----
+{/* Right Side - Vertical Process Flow with Fixed Lines */}
+⋮----
+{/* Purple Gradient Box with White Arrows */}
+⋮----
+{/* White arrows connecting text to next circle */}
+⋮----
+{/* Arrow 1: Project Analysis to Planning circle */}
+⋮----
+{/* Arrow 2: Strategy & Design to Development circle */}
+⋮----
+{/* Arrow 3: Build & Test to Delivery circle */}
+⋮----
+{/* Vertical Flow Steps */}
+
+================
+File: components/sections/PurpleCTA.tsx
+================
+import React from 'react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
+⋮----
+{/* Custom CSS for animations */}
+⋮----
+{/* Background Patterns */}
+⋮----
+{/* Left Side Content */}
+⋮----
+{/* CTA Button */}
+⋮----
+{/* Statistics Bar */}
+⋮----
+{/* Right Side Visual - Enhanced AI Tech Animation */}
+⋮----
+{/* Outer expanding ring */}
+⋮----
+{/* Middle rotating ring */}
+⋮----
+{/* Orbiting elements */}
+⋮----
+{/* Central AI Core */}
+⋮----
+{/* Inner pulse ring */}
+⋮----
+{/* Expanding connection lines to left */}
+⋮----
+{/* Top expanding lines */}
+⋮----
+{/* Bottom expanding lines */}
+⋮----
+{/* Data nodes */}
+⋮----
+{/* Data streams */}
+⋮----
+{/* Geometric connectors */}
+
+================
+File: components/sections/TrustIndicators.tsx
+================
+import React from 'react';
+import { Star, Users, Award, TrendingUp } from 'lucide-react';
+⋮----
+{/* Rating and Stats Row */}
+⋮----
+{/* Left Side - Rating */}
+⋮----
+{/* Stats Cards */}
+⋮----
+{/* Trusted By Section */}
+⋮----
+{/* Client Logos Grid */}
+⋮----
+{/* Yale University */}
+⋮----
+{/* FBI Badge */}
+⋮----
+{/* Infosys */}
+⋮----
+{/* Dubai Police */}
+⋮----
+{/* Orange Business Services */}
+⋮----
+{/* KIA */}
+⋮----
+{/* Hitachi */}
+⋮----
+{/* WHO */}
+⋮----
+{/* Gartner */}
+⋮----
+{/* Qatar Airways */}
+⋮----
+{/* Bottom Achievement Section */}
+⋮----
+{/* Background Pattern */}
+⋮----
+{/* Achievement Stats */}
+⋮----
+{/* Floating Achievement Badge */}
+
+================
+File: components/sections/TwoColumnScroll.tsx
+================
+import React, { useState, useEffect, useRef } from 'react';
+import { ChevronLeft, ChevronRight, Code, Brain, Shield, Cloud, Smartphone, BarChart3, Database, Zap, Globe, Search, MessageCircle, Settings } from 'lucide-react';
+⋮----
+// Auto-scroll functionality
+⋮----
+// Intersection Observer to detect when section is in view
+⋮----
+const handlePrevious = () =>
+⋮----
+const handleNext = () =>
+⋮----
+{/* Section Header */}
+⋮----
+{/* Left Column - Navigation & Categories */}
+⋮----
+{/* Progress bar */}
+
+================
+File: components/TestComponent.tsx
+================
+import React from 'react';
+
+================
+File: pages/About.tsx
+================
+import React from 'react';
+import { CheckCircle, Users, Award, Target, Heart, Globe } from 'lucide-react';
+⋮----
+{/* Hero Section */}
+⋮----
+{/* Our Story */}
+⋮----
+{/* Our Values */}
+⋮----
+{/* Our Team */}
+⋮----
+{/* Our Approach */}
+
+================
+File: pages/Contact.tsx
+================
+import React, { useState } from 'react';
+import { MapPin, Mail, Clock, Send, CheckCircle } from 'lucide-react';
+⋮----
+const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
+⋮----
+const handleSubmit = (e: React.FormEvent) =>
+⋮----
+// Handle form submission here
+⋮----
+{/* Hero Section */}
+⋮----
+{/* Contact Form & Info */}
+⋮----
+{/* Contact Form */}
+⋮----
+{/* Contact Information */}
+⋮----
+{/* Additional Info */}
+
+================
+File: pages/PixelHome.tsx
+================
+import React from 'react';
+import PixelHero from '../components/sections/PixelHero';
+import PixelServiceCards from '../components/sections/PixelServiceCards';
+import DetailedServices from '../components/sections/DetailedServices';
+import PurpleCTA from '../components/sections/PurpleCTA';
+import TrustIndicators from '../components/sections/TrustIndicators';
+import ProcessSection from '../components/sections/ProcessSection';
+import IndustriesSection from '../components/sections/IndustriesSection';
+import TwoColumnScroll from '../components/sections/TwoColumnScroll';
+import ExpertiseShowcase from '../components/sections/ExpertiseShowcase';
+import FinalCTA from '../components/sections/FinalCTA';
+⋮----
+const PixelHome: React.FC = () =>
+⋮----
+{/* Hero Section with Tabs and 3D Elements */}
+⋮----
+{/* Trust Indicators & Client Stats */}
+{/*<TrustIndicators />*/}
+⋮----
+{/* Service Cards Section - What We Offer */}
+⋮----
+{/* Detailed Services (Software, Marketing, Teams) */}
+{/*<DetailedServices />*/}
+⋮----
+{/* Purple CTA Section - Redefine Your Online Presence */}
+⋮----
+{/* 8-Step Process Section */}
+⋮----
+{/* Industries We Serve */}
+⋮----
+{/* Interactive Technology Showcase */}
+⋮----
+{/* Expertise Showcase with Skills */}
+{/*<ExpertiseShowcase />*/}
+⋮----
+{/* Final CTA Section */}
+
+================
+File: pages/Services.tsx
+================
+import React, { useState, useEffect } from 'react';
+import { 
+  Code, 
+  Smartphone, 
+  Globe, 
+  ShoppingCart,
+  Search,
+  BarChart3,
+  MessageCircle,
+  Brain,
+  Settings,
+  Zap,
+  Target,
+  TrendingUp,
+  ArrowRight,
+  CheckCircle,
+  Play,
+  Sparkles,
+  Users,
+  Award,
+  Clock,
+  Shield,
+  Star
+} from 'lucide-react';
+⋮----
+// Intersection Observer for animations
+⋮----
+{/* Hero Section with Form */}
+⋮----
+{/* Background Elements */}
+⋮----
+{/* Left Content */}
+⋮----
+{/* Service Categories Quick Stats */}
+⋮----
+{/* Right Side - Contact Form */}
+⋮----
+{/* Service Categories Navigation */}
+⋮----
+{/* Active Category Services */}
+⋮----
+{/* Category Header */}
+⋮----
+{/* Services Grid */}
+⋮----
+{/* Service Card */}
+⋮----
+{/* Popular Badge */}
+⋮----
+{/* Service Header */}
+⋮----
+{/* Service Content */}
+⋮----
+{/* Features Grid */}
+⋮----
+{/* Stats Row */}
+⋮----
+{/* CTA Button */}
+⋮----
+{/* Hover Glow Effect */}
+⋮----
+{/* Why Choose Us Section */}
+⋮----
+{/* Left Content */}
+⋮----
+{/* Benefits List */}
+⋮----
+{/* Right Visual */}
+⋮----
+{/* Animated Tech Stack Showcase */}
+⋮----
+{/* Tech Categories */}
+⋮----
+{/* Final CTA Section */}
+⋮----
+{/* Trust Indicators */}
+
+================
+File: App.css
+================
+/* App.css - Additional custom styles if needed */
+
+================
+File: App.test.tsx
+================
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+================
+File: App.tsx
+================
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PixelLayout from './components/layout/PixelLayout';
+import PixelHome from './pages/PixelHome';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Services from './pages/Services';
+⋮----
+function App()
+⋮----
+{/* Add more routes as needed */}
+
+================
+File: index.css
+================
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+⋮----
+/* Global Styles */
+@layer base {
+⋮----
+html {
+⋮----
+body {
+⋮----
+code {
+⋮----
+/* Add this new rule */
+* {
+⋮----
+/* Remove default margins and paddings */
+⋮----
+/* Custom Animations */
+@layer utilities {
+⋮----
+.animate-float {
+⋮----
+.animate-bounce-slow {
+⋮----
+.animate-pulse-slow {
+⋮----
+.animate-spin-slow {
+⋮----
+.animate-gradient-x {
+⋮----
+.animate-gradient-y {
+⋮----
+.animate-scale-in {
+⋮----
+/* Custom Components */
+@layer components {
+⋮----
+.glass-effect {
+⋮----
+.text-gradient {
+⋮----
+.bg-pattern {
+⋮----
+.hero-pattern {
+⋮----
+.cube-pattern {
+⋮----
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+⋮----
+.custom-scrollbar::-webkit-scrollbar-track {
+⋮----
+.custom-scrollbar::-webkit-scrollbar-thumb {
+⋮----
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+⋮----
+@apply bg-gray-600;
+⋮----
+/* Button Styles */
+.btn-primary {
+⋮----
+.btn-secondary {
+⋮----
+.btn-outline {
+⋮----
+/* Card Styles */
+.card-hover {
+⋮----
+.card-glow {
+⋮----
+.card-glow::before {
+⋮----
+.card-glow:hover::before {
+⋮----
+/* Section Styles */
+.section-padding {
+⋮----
+.container-width {
+⋮----
+/* Typography System */
+.heading-hero {
+⋮----
+.heading-primary {
+⋮----
+.heading-secondary {
+⋮----
+.heading-tertiary {
+⋮----
+.heading-quaternary {
+⋮----
+.text-hero-subtitle {
+⋮----
+.text-section-subtitle {
+⋮----
+.text-body-large {
+⋮----
+.text-body {
+⋮----
+.text-body-small {
+⋮----
+/* Container System */
+.container-main {
+⋮----
+.container-content {
+⋮----
+.container-text {
+⋮----
+.container-narrow {
+⋮----
+.section-wrapper {
+⋮----
+@apply w-full;
+⋮----
+.inner-container {
+⋮----
+/* Mobile-First Spacing System */
+.section-padding-sm {
+⋮----
+.section-padding-md {
+⋮----
+.section-padding-lg {
+⋮----
+.section-padding-xl {
+⋮----
+.content-spacing {
+⋮----
+.element-spacing {
+⋮----
+.grid-spacing {
+⋮----
+.section-gap {
+⋮----
+.mobile-safe-padding {
+⋮----
+.mobile-safe-margin {
+⋮----
+/* Mobile-First Animation System */
+.smooth-hover {
+⋮----
+.mobile-touch-feedback {
+⋮----
+.card-lift {
+⋮----
+.button-scale {
+⋮----
+.fade-in-up {
+⋮----
+.fade-in-up.animate {
+⋮----
+.mobile-safe-hover {
+⋮----
+/* Disable animations for reduced motion */
+⋮----
+.smooth-hover,
+⋮----
+@apply transition-none;
+⋮----
+/* Touch-specific optimizations */
+⋮----
+.card-lift:hover {
+⋮----
+.button-scale:hover {
+⋮----
+@apply scale-100;
+⋮----
+/* Mobile-First Card System */
+.card-enterprise {
+⋮----
+.card-elevated {
+⋮----
+.card-glass {
+⋮----
+/* Mobile-First Button System */
+.btn-primary-enterprise {
+⋮----
+@apply min-h-[44px] min-w-[44px]; /* Touch target */
+⋮----
+.btn-secondary-enterprise {
+⋮----
+.btn-outline-enterprise {
+⋮----
+/* Touch-specific button optimizations */
+⋮----
+.btn-primary-enterprise:hover,
+⋮----
+@apply transform-none;
+⋮----
+/* Mobile-First Grid & Layout System */
+.grid-enterprise {
+⋮----
+.grid-cards-1 {
+⋮----
+.grid-cards-2 {
+⋮----
+.grid-cards-3 {
+⋮----
+.grid-cards-4 {
+⋮----
+.grid-features {
+⋮----
+.flex-mobile-center {
+⋮----
+.flex-mobile-between {
+⋮----
+.flex-mobile-start {
+⋮----
+/* Mobile-safe flexbox */
+.flex-safe {
+⋮----
+/* Responsive text alignment */
+.text-mobile-center {
+⋮----
+.text-always-center {
+⋮----
+@apply text-center;
+⋮----
+/* Mobile-First Form System */
+.form-enterprise {
+⋮----
+@apply min-h-[44px]; /* Touch target */
+@apply text-base; /* Prevents zoom on iOS */
+⋮----
+.form-textarea {
+⋮----
+.form-select {
+⋮----
+.form-label {
+⋮----
+.form-error {
+⋮----
+.form-success {
+⋮----
+/* Mobile keyboard optimizations */
+.form-email {
+⋮----
+@apply form-enterprise;
+⋮----
+.form-tel {
+⋮----
+.form-number {
+⋮----
+/* Touch-friendly checkboxes and radios */
+.form-checkbox {
+⋮----
+.form-radio {
+⋮----
+/* Mobile-First Accessibility System */
+.focus-enterprise {
+⋮----
+.focus-enterprise-inset {
+⋮----
+.focus-enterprise-white {
+⋮----
+/* Skip links for keyboard navigation */
+.skip-link {
+⋮----
+/* Screen reader only text */
+.sr-only-mobile {
+⋮----
+/* Touch targets */
+.touch-target {
+⋮----
+/* High contrast mode support */
+⋮----
+.card-enterprise,
+⋮----
+/* Reduced motion support */
+⋮----
+/* Loading Animation */
+.loading-dots {
+⋮----
+.loading-dots div {
+⋮----
+.loading-dots div:nth-child(2) {
+⋮----
+.loading-dots div:nth-child(3) {
+⋮----
+/* Responsive Design Helpers */
+⋮----
+.text-responsive {
+⋮----
+.padding-responsive {
+⋮----
+.margin-responsive {
+⋮----
+.grid-responsive {
+⋮----
+/* Dark mode support */
+.dark-mode {
+⋮----
+.dark-mode .bg-white {
+⋮----
+@apply bg-gray-800;
+⋮----
+.dark-mode .text-gray-900 {
+⋮----
+@apply text-white;
+⋮----
+.dark-mode .text-gray-600 {
+⋮----
+@apply text-gray-300;
+⋮----
+.dark-mode .border-gray-200 {
+⋮----
+@apply border-gray-700;
+⋮----
+/* Print Styles */
+⋮----
+.no-print {
+⋮----
+.print-break {
+⋮----
+/* High Contrast Mode */
+⋮----
+.bg-gradient-to-r {
+⋮----
+@apply bg-blue-600;
+⋮----
+/* Reduced Motion */
+⋮----
+.animate-float,
+⋮----
+/* Focus Styles for Accessibility */
+⋮----
+.focus-ring {
+⋮----
+.focus-ring-inset {
+⋮----
+/* Custom Selection */
+::selection {
+⋮----
+::-moz-selection {
+
+================
+File: index.tsx
+================
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+⋮----
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+⋮----
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+================
+File: logo.svg
+================
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3"><g fill="#61DAFB"><path d="M666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9V78c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6V78.5c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zM421.2 430c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24 4.7 8 9.5 15.8 14.4 23.4zM420.7 163c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6 0-15.7 22.9-35.6 58.3-50.6 8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zM310 490c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6zM320.8 78.4z"/><circle cx="420.9" cy="296.5" r="45.7"/><path d="M520.5 78.1z"/></g></svg>
+
+================
+File: react-app-env.d.ts
+================
+/// <reference types="react-scripts" />
+
+================
+File: reportWebVitals.ts
+================
+import { ReportHandler } from 'web-vitals';
+⋮----
+const reportWebVitals = (onPerfEntry?: ReportHandler) =>
+
+================
+File: setupTests.ts
+================
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
+// allows you to do things like:
+// expect(element).toHaveTextContent(/react/i)
+// learn more: https://github.com/testing-library/jest-dom
+
+
+
+
+================================================================
+End of Codebase
+================================================================
